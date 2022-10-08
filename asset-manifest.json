@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.57474074.css",
-    "main.js": "/portfolio/static/js/main.7f9c74a3.js",
-    "static/media/mesto.png": "/portfolio/static/media/mesto.41599b6ee685d6025404.png",
-    "static/media/how-to-learn.png": "/portfolio/static/media/how-to-learn.daed4ee78371459481db.png",
-    "static/media/travel.png": "/portfolio/static/media/travel.30d46969a5db5b475422.png",
-    "static/media/movies.png": "/portfolio/static/media/movies.c0dc155e75cc0e0857d9.png",
-    "static/media/projectImg.jpg": "/portfolio/static/media/projectImg.362b186af6b45115b9f5.jpg",
-    "static/media/Montserrat-Bold.ttf": "/portfolio/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
-    "static/media/Montserrat-SemiBold.ttf": "/portfolio/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
-    "static/media/RobotoMono-Regular.ttf": "/portfolio/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
-    "static/media/love.svg": "/portfolio/static/media/love.93683afc6315047140d5487d21d8b389.svg",
-    "index.html": "/portfolio/index.html",
-    "main.57474074.css.map": "/portfolio/static/css/main.57474074.css.map",
-    "main.7f9c74a3.js.map": "/portfolio/static/js/main.7f9c74a3.js.map"
+    "main.css": "/static/css/main.e9c4cc2e.css",
+    "main.js": "/static/js/main.d4ee8002.js",
+    "static/media/mesto.png": "/static/media/mesto.41599b6ee685d6025404.png",
+    "static/media/how-to-learn.png": "/static/media/how-to-learn.daed4ee78371459481db.png",
+    "static/media/travel.png": "/static/media/travel.30d46969a5db5b475422.png",
+    "static/media/movies.png": "/static/media/movies.c0dc155e75cc0e0857d9.png",
+    "static/media/projectImg.jpg": "/static/media/projectImg.362b186af6b45115b9f5.jpg",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/RobotoMono-Regular.ttf": "/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
+    "static/media/love.svg": "/static/media/love.93683afc6315047140d5487d21d8b389.svg",
+    "index.html": "/index.html",
+    "main.e9c4cc2e.css.map": "/static/css/main.e9c4cc2e.css.map",
+    "main.d4ee8002.js.map": "/static/js/main.d4ee8002.js.map"
   },
   "entrypoints": [
-    "static/css/main.57474074.css",
-    "static/js/main.7f9c74a3.js"
+    "static/css/main.e9c4cc2e.css",
+    "static/js/main.d4ee8002.js"
   ]
 }
