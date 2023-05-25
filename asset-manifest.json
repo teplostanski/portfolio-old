@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2825c6c0.css",
-    "main.js": "/static/js/main.8e2daf28.js",
+    "main.css": "/static/css/main.26fb6884.css",
+    "main.js": "/static/js/main.7c04e578.js",
     "static/media/mesto.png": "/static/media/mesto.41599b6ee685d6025404.png",
     "static/media/how-to-learn.png": "/static/media/how-to-learn.daed4ee78371459481db.png",
     "static/media/travel.png": "/static/media/travel.30d46969a5db5b475422.png",
@@ -9,14 +9,16 @@
     "static/media/projectImg.jpg": "/static/media/projectImg.362b186af6b45115b9f5.jpg",
     "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
     "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/portfolio.png": "/static/media/portfolio.f830625cb175d5980c33.png",
     "static/media/RobotoMono-Regular.ttf": "/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
+    "static/media/aned.png": "/static/media/aned.a92294e21b98234e1875.png",
     "static/media/love.svg": "/static/media/love.93683afc6315047140d5487d21d8b389.svg",
     "index.html": "/index.html",
-    "main.2825c6c0.css.map": "/static/css/main.2825c6c0.css.map",
-    "main.8e2daf28.js.map": "/static/js/main.8e2daf28.js.map"
+    "main.26fb6884.css.map": "/static/css/main.26fb6884.css.map",
+    "main.7c04e578.js.map": "/static/js/main.7c04e578.js.map"
   },
   "entrypoints": [
-    "static/css/main.2825c6c0.css",
-    "static/js/main.8e2daf28.js"
+    "static/css/main.26fb6884.css",
+    "static/js/main.7c04e578.js"
   ]
 }
