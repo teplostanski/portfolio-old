@@ -1,2 +1,0 @@
-*{box-sizing:border-box;margin:0;padding:0}:root{--dark-bg:#0d1117;--white:#fff;--gray:#40464d;--dark-gray:#2a2d30;--deep-dark:#161b22;--purple:#d2a8ff;--green:#7ee787}html{align-items:center;background-color:#0d1117;background-color:var(--dark-bg);color:#d2a8ff;color:var(--purple);font-family:monospace;font-size:16px;height:100vh;justify-content:center}div,html{display:flex}div{word-wrap:break-word;flex-direction:column;width:320px}a,span{padding:3px 0}
-/*# sourceMappingURL=main.d89ba57b.css.map*/
