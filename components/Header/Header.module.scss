@@ -1,13 +1,11 @@
+@import '../../styles/colors';
+
 .container {
   width: calc(100% - 2px);
-  height: var(--header-width);
-  border: solid var(--border-color);
-  border-width: 0 0 1px 0;
-  position: fixed;
-  top: 0;
-  left: 0;
+  height: fit-content;
+  border: solid $border-color;
+  border-width: 1px 0;
   transform: translate(0px, 0px);
-  background-color: var(--bg);
   z-index: 10;
   display: flex;
   justify-content: space-between;
@@ -15,19 +13,18 @@
 }
 
 .logo {
-  font-family: 'Asket';
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-left: 15px;
+  font-size: 24px;
   width: fit-content;
-  display: flex;
-  flex-direction: column;
   text-decoration: none;
-  color: black;
-}
-
-.text {
-  margin-left: 28px;
+  color: $fg;
+  &__text {
+    margin-left: 15px;
+  }
+  @media screen and (max-width: 357px) {
+    &__dot {
+      display: none;
+    }
+  }
 }
 
 .nav {
@@ -38,58 +35,23 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    border: solid var(--border-color);
-    border-width: 0 0 0 1px;
     height: 100%;
     display: flex;
     align-items: center;
   }
   &__item {
-    margin: 0 25px;
+    border: 1px solid $border-color;
+    padding: 20px 25px;
+    border-radius: 50px;
     text-transform: uppercase;
+    margin: -1px;
     cursor: pointer;
     & > a {
       text-decoration: none;
-      color: black;
+      color: $fg;
     }
     &:hover {
       text-decoration: underline;
     }
-  }
-}
-
-.wrapper {
-  font-family: 'Asket';
-  font-size: 20px;
-  text-transform: uppercase;
-  margin: 15px;
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-}
-
-.text {
-  margin-left: 28px;
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    border: none;
-    display: none;
-  }
-
-  .logo {
-    display: none;
-  }
-}
-
-@media screen and (max-height: 425px) and (max-width: 844px) {
-  .container {
-    border: none;
-    display: none;
-  }
-
-  .logo {
-    display: none;
   }
 }

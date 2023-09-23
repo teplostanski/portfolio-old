@@ -38,10 +38,10 @@ const Index = () => {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Main />
-      <About />
-      <Skills />
-      <Links />
-      <Footer />
+      {/*<About />*/}
+      {/*<Skills />*/}
+      {/*<Links />*/}
+      {/*<Footer />*/}
     </MainLayout>
   )
 }
