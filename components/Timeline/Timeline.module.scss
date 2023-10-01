@@ -9,7 +9,7 @@
   justify-content: flex-start;
   margin: 3vh 0 0 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background: $bg;
   color: $fg;
@@ -28,7 +28,7 @@
   }
   &:first-child {
     margin: calc(3vh + 10px) 0 0 0;
-    width: 100vw;
+    //width: 100vw;
 
     &::before {
       content: '';
@@ -68,9 +68,9 @@
   //  z-index: 1000;
   //}
 
-  @media screen and (min-width: #{$m + px}) {
-    width: 600px;
-  }
+  //@media screen and (min-width: #{$m + px}) {
+  //  width: 600px;
+  //}
 }
 
 .arrow {
