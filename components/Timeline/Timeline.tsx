@@ -1,14 +1,18 @@
 import { useEffect, useRef, useState } from 'react'
+import Image from 'next/image'
 import { nanoid } from 'nanoid'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import { useWindowWidth } from '@react-hook/window-size'
+import cn from 'classnames'
+import linkArrow from '../../assets/images/link_arrow_1.svg'
 import styles from './Timeline.module.scss'
+import Link from 'next/link'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const Timeline = () => {
-  //const windowWidth = useWindowWidth()
+  const windowWidth = useWindowWidth()
   //const ref = useRef<HTMLDivElement | null>(null)
 
   //console.log('cardWidth', cardWidth);
@@ -117,8 +121,8 @@ const Timeline = () => {
         anticipatePin: 1,
         //fastScrollEnd: 1, // or velocity number
         //containerAnimation: tween,
-        scrub: 1.1,
-        //end: () => '+=' + width,
+        scrub: 0.8,
+        end: () => `${(projects.length * windowWidth) / 2}`,
       },
     })
   }, [])
@@ -185,6 +189,15 @@ const Timeline = () => {
             </section>
           )
         )}
+      <section id="panel" className={cn(styles.panel)}>
+        <Link className={styles.panel__last} href={'/projects'}>
+          {' '}
+          <h3 id="last" className={cn(styles.title, styles.title__last)}>
+            на страницу проектов
+          </h3>
+          <Image className={styles.arrow} src={linkArrow} alt="arrow" />
+        </Link>
+      </section>
     </div>
   )
 }
