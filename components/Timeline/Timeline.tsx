@@ -122,7 +122,7 @@ const Timeline = () => {
         //fastScrollEnd: 1, // or velocity number
         //containerAnimation: tween,
         scrub: 0.8,
-        end: () => `${(projects.length * windowWidth) / 2}`,
+        //end: () => `${(projects.length * windowWidth) / 2}`,
       },
     })
   }, [])
